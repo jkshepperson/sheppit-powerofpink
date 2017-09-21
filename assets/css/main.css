@@ -7,6 +7,56 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Joell */
+
+.count {
+	background-image: url("../../images/count2.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 5em;
+}
+
+.clockbox {
+    background-color: #ffffff;
+    border: 1px #FF1493;
+    opacity: .85;
+		margin: auto;
+    width: 75%;
+    padding: .5em;
+}
+
+.news p:hover {
+	cursor: pointer;
+	background-color: #fefefe;
+	color: #FF1493;
+	display: block;
+	box-shadow: 2px 2px 1px grey;
+}
+
+.reminder {
+	position: relative;
+  background-image: url("../../images/date.jpg");
+  background-size: cover;
+	background-position: bottom;
+  color: #fff;
+  text-align: center;
+	opacity: 1;
+  padding: 6em 0 6em 0;
+}
+
+.reminder .button {
+	background-color: #fff;
+	border-color: rgba(255, 255, 255, 0);
+	color: #FF1493;
+	font-size: 1.25em;
+}
+
+.reminder .button:hover {
+		border-color: rgba(255, 255, 255, 0.75);
+		background-color: rgba(255, 255, 255, 0.15);
+		color: #fff;
+	}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -211,6 +261,10 @@
 
 		.container {
 			width: 100% !important;
+		}
+
+		.clockbox {
+			display: none;
 		}
 
 	}
@@ -1688,7 +1742,7 @@
 
 		header > p {
 			display: block;
-			color: #f35858;
+			color: #FF1493;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -1946,8 +2000,8 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
-			border-color: rgba(243, 88, 88, 0.5);
+			color: #FF1493;
+			border-color: #FF1493;
 		}
 
 /* Icons */
@@ -1999,19 +2053,17 @@
 			left: -1000%;
 			top: 0;
 			z-index: 1;
-			box-shadow: inset 0px 0px 0px 1px #e8e8e8;
-			background: #f6f8fb url("images/image-wrapper.svg");
 		}
 
 	#header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-color: #f08c89;
+		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF1493 15%, #FF3E96 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF1493 15%, #FF3E96 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF1493 15%, #FF3E96 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF1493 15%, #FF3E96 55%);
+		background-color: #cc1075;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
